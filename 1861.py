@@ -1,0 +1,5 @@
+inputs = input()
+s,a,b,c = inputs.split()
+s = int(s)
+price = int(a) + 2 * int(b) + int(c)
+print(s//price)

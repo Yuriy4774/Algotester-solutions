@@ -1,0 +1,5 @@
+n = int(input())
+sp = list(map(int,input().split()))
+max_sp = max(sp)
+min_sp = min(sp)
+print(max_sp - min_sp)
